@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>ST - PLANEJAMENTOS</title>
+</head>
+<body>
+    <input id="meta" placeholder="META">
+    <input id="adicionarmeta" class="inputs" type="submit" value="Adicionar" onclick="teste()">
+    <label id="valor" class="label">Valor</label>
+    <input id="valorinput" placeholder="R$">
+    <input id="okvalor" class="inputs" value="Adicionar" type="submit">
+    <label id="saldo" class="label">Saldo</label>
+    <input id="valorsaldo" placeholder="R$">
+    <input id="salvarsaldo" value="Adicionar" class="inputs" type="submit">
+    <input id="limpardiv" value="Concluido" class="inputs" type="submit" onclick="limpar()">
+    <div class="alerta" id="concluido">
+        <p id="textalerta">PARABÉNS!! CONCLUIMOS Á(S) META(S) PLANEJADA(S)</p>
+    </div>
+    <div class="metas" id="metas">
+    </div>
+    <div id="barradeprogresso">
+        <div id="progresso"></div>
+    </div>
+    <input type="submit" id="vervalores" class="inputs" value="Valores" onclick="mostrarvalores()">
+</body>
+</html>

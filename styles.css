@@ -1,0 +1,209 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+
+@font-face {
+    font-family: gothambold;
+    src: url('fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: gothamblack;
+    src: url('fonts/Gotham-Black.otf');
+}
+
+#meta {
+    font-family: gothambold;
+    border: none;
+    border-radius: 5px;
+    background-color: #E0E0E0;
+}
+
+.inputs {
+    font-family: gothambold;
+    color:white;
+    background-color: #66cdaa;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#titulodiv {
+    position: fixed;
+    top: 40px;
+    right: 620px;
+    font-family: gothamblack;
+}
+
+
+#metas {
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: #D3D3D3;
+    font-family: gothambold;
+}
+
+.label {
+    position: absolute;
+    font-size: small;
+    font-family: gothambold;
+    color:#D3D3D3;
+}
+
+#valor {
+    position: absolute;
+    right: 350px;
+}
+
+#valorinput {
+    position: absolute;
+    font-family: gothambold;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    right: 285px;
+}
+
+#okvalor {
+    cursor: pointer;
+    position: absolute;
+    right: 208px;
+}
+
+#produto {
+    position: absolute;
+    right: 450px;
+}
+
+#produtocheck {
+    position: absolute;
+    right: 430px;
+}
+
+#saldo {
+    position: absolute;
+    left: 10px;
+}
+
+#valorsaldo {
+    border-radius: 5px;
+    border: none;
+    font-family: gothambold;
+    position: absolute;
+    width: 50px;
+    left: 60px;
+}
+
+#salvarsaldo {
+    position: absolute;
+    left: 114px;
+}
+
+.inputs:hover {
+    opacity: 0.8;
+}
+
+.inputs:active {
+    opacity: 0.5;
+}
+
+.textmetas {
+    position: relative;
+}
+
+#novadiv {
+    top: 50px;
+    position: relative;
+    left: 25px;
+    display: flex;
+    font-size: small;
+}
+
+#limpardiv {
+    position: absolute;
+    bottom: 170px;
+}
+
+#barradeprogresso {
+    position: absolute;
+    width: 80%;
+    background-color: #ccc; 
+    height: 20px; 
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-top: 10px; 
+    bottom: 100px;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+#progresso {
+    position: absolute;
+    height: 100%; 
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.alerta {
+    opacity: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #66cdaa;
+    bottom: 30px;
+    border-radius: 10px;
+    width: 70%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#textalerta {
+    font-family: gothamblack;
+    color: #E0E0E0;
+    position: relative;
+}
+
+#valores {
+    position: absolute;
+    font-family: gothambold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E0E0E0;
+    width: 50px;
+    height: 150px;
+    bottom: 50px;
+    left: 20px;
+}
+
+#valormeta {
+    position: absolute;
+}
+
+#saldometa {
+    position: absolute;
+    margin-top: 125px;
+}
+
+#vervalores {
+    position: absolute;
+    left: 7px;
+    top: 40px;
+}
